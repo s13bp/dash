@@ -4506,7 +4506,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   background-color: #1476ff;
-  background-image: url("https://assets.website-files.com/6260849a6eab2a733e282630/62671045bfaca16f30882e97_styleguide-top-pattern-2-dashboardly-webflow-template.svg"), url("https://assets.website-files.com/6260849a6eab2a733e282630/62671044213bf5bc5d445976_styleguide-top-pattern-1-dashboardly-webflow-template.svg");
+  background-image: url("https://assets.website-files.com/62d95badcd68f342bea7ba06/62671045bfaca16f30882e97_styleguide-top-pattern-2-dashboardly-webflow-template.svg"), url("https://assets.website-files.com/62d95badcd68f342bea7ba06/62671044213bf5bc5d445976_styleguide-top-pattern-1-dashboardly-webflow-template.svg");
   background-position: 104% -100%, -9% 360%;
   background-size: auto, auto;
   background-repeat: no-repeat, no-repeat;
@@ -5547,7 +5547,7 @@ figcaption {
   border-color: #1476ff;
   border-radius: 5px;
   background-color: #1476ff;
-  background-image: url("https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a325a28267a_check-form-brix-templates-webflow.svg");
+  background-image: url("https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a325a28267a_check-form-brix-templates-webflow.svg");
   background-size: 64%;
 }
 
@@ -8812,7 +8812,7 @@ figcaption {
   grid-column-gap: 40px;
   border-radius: 24px;
   background-color: #1476ff;
-  background-image: url("https://assets.website-files.com/6260849a6eab2a733e282630/627140f884a8795db0c7aeb9_top-right-invoices-bg-dashboardly-webflow-template.svg"), url("https://assets.website-files.com/6260849a6eab2a733e282630/627140f8740c88355711e8ce_middle-invoices-bg-dashboardly-webflow-template.svg"), url("https://assets.website-files.com/6260849a6eab2a733e282630/627140f8197dcebc4df6f539_top-left-invoices-bg-dashboardly-webflow-template.svg");
+  background-image: url("https://assets.website-files.com/62d95badcd68f342bea7ba06/627140f884a8795db0c7aeb9_top-right-invoices-bg-dashboardly-webflow-template.svg"), url("https://assets.website-files.com/62d95badcd68f342bea7ba06/627140f8740c88355711e8ce_middle-invoices-bg-dashboardly-webflow-template.svg"), url("https://assets.website-files.com/62d95badcd68f342bea7ba06/627140f8197dcebc4df6f539_top-left-invoices-bg-dashboardly-webflow-template.svg");
   background-position: 124% 240%, 50% -34%, -20% 230%;
   background-size: 42%, 52%, 40%;
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -10275,7 +10275,7 @@ figcaption {
   margin-bottom: 48px;
   padding-top: 58px;
   background-color: #1476ff;
-  background-image: url("https://assets.website-files.com/6260849a6eab2a733e282630/627aa6808a95ea1a51a833e0_help-center-bottom-right-pattern-dashboardly-webflow-template.svg"), url("https://assets.website-files.com/6260849a6eab2a733e282630/627aa67f67105b6828e8133a_help-center-bottom-left-pattern-dashboardly-webflow-template.svg");
+  background-image: url("https://assets.website-files.com/62d95badcd68f342bea7ba06/627aa6808a95ea1a51a833e0_help-center-bottom-right-pattern-dashboardly-webflow-template.svg"), url("https://assets.website-files.com/62d95badcd68f342bea7ba06/627aa67f67105b6828e8133a_help-center-bottom-left-pattern-dashboardly-webflow-template.svg");
   background-position: 104% 100%, -120px 180px;
   background-size: auto, auto;
   background-repeat: no-repeat, no-repeat;
@@ -10454,7 +10454,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("https://assets.website-files.com/6260849a6eab2a733e282630/6286bd31231f6be4edbe09fd_screens-text-bg-dashboardly-webflow-template.png");
+  background-image: url("https://assets.website-files.com/62d95badcd68f342bea7ba06/6286bd31231f6be4edbe09fd_screens-text-bg-dashboardly-webflow-template.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34114,35 +34114,35 @@ figcaption {
 }
 @font-face {
   font-family: 'Social Icons Font';
-  src: url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a19f92826a0_social-icon-font.woff2') format('woff2'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a333d282692_social-icon-font.eot') format('embedded-opentype'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2aee6928268e_social-icon-font.woff') format('woff'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a7dc928269e_social-icon-font.ttf') format('truetype'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a856f282686_social-icon-font.svg') format('svg');
+  src: url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a19f92826a0_social-icon-font.woff2') format('woff2'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a333d282692_social-icon-font.eot') format('embedded-opentype'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2aee6928268e_social-icon-font.woff') format('woff'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a7dc928269e_social-icon-font.ttf') format('truetype'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a856f282686_social-icon-font.svg') format('svg');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Line Square Icons';
-  src: url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2ab3d82826a5_line-square-icons.woff2') format('woff2'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a9a082826a1_line-square-icons.eot') format('embedded-opentype'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a17032826bf_line-square-icons.woff') format('woff'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2affcc2826c0_line-square-icons.ttf') format('truetype'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a3ec02826c5_line-square-icons.svg') format('svg');
+  src: url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2ab3d82826a5_line-square-icons.woff2') format('woff2'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a9a082826a1_line-square-icons.eot') format('embedded-opentype'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a17032826bf_line-square-icons.woff') format('woff'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2affcc2826c0_line-square-icons.ttf') format('truetype'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a3ec02826c5_line-square-icons.svg') format('svg');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Filled Icons';
-  src: url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2ac3da2826c3_filled-icon-font.woff2') format('woff2'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a9f912826ec_filled-icon-font.eot') format('embedded-opentype'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a2c1f28269f_filled-icon-font.woff') format('woff'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a319e2826c4_filled-icon-font.ttf') format('truetype'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2ae4d32826a7_filled-icon-font.svg') format('svg');
+  src: url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2ac3da2826c3_filled-icon-font.woff2') format('woff2'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a9f912826ec_filled-icon-font.eot') format('embedded-opentype'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a2c1f28269f_filled-icon-font.woff') format('woff'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a319e2826c4_filled-icon-font.ttf') format('truetype'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2ae4d32826a7_filled-icon-font.svg') format('svg');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Line Rounded Icons';
-  src: url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2af16128269d_line-rounded-icons.woff2') format('woff2'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2aa8b828267d_line-rounded-icons.eot') format('embedded-opentype'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a6e13282675_line-rounded-icons.woff') format('woff'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a170e282699_line-rounded-icons.ttf') format('truetype'), url('https://assets.website-files.com/6260849a6eab2a733e282630/6260849a6eab2a01562826c6_line-rounded-icons.svg') format('svg');
+  src: url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2af16128269d_line-rounded-icons.woff2') format('woff2'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2aa8b828267d_line-rounded-icons.eot') format('embedded-opentype'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a6e13282675_line-rounded-icons.woff') format('woff'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a170e282699_line-rounded-icons.ttf') format('truetype'), url('https://assets.website-files.com/62d95badcd68f342bea7ba06/6260849a6eab2a01562826c6_line-rounded-icons.svg') format('svg');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Dashboardly Custom Icons';
-  src: url('https://assets.website-files.com/6260849a6eab2a733e282630/627bfc3931712773b76fa155_dashboardlycustomicons.woff2') format('woff2');
+  src: url('https://assets.website-files.com/62d95badcd68f342bea7ba06/627bfc3931712773b76fa155_dashboardlycustomicons.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
