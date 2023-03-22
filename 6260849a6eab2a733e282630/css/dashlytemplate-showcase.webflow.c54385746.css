@@ -9835,9 +9835,9 @@ figcaption {
 }
 
 .dashboard-main-content {
-  min-height: 92vh;
+  min-height: 82vh;
   padding-top: 48px;
-  padding-bottom: 64px;
+
 }
 
 .dashboard-main-content.pd-top-0 {
@@ -11286,7 +11286,7 @@ figcaption {
 }
 
 .popup.simple-popup {
-  position: relative;
+  position: absolute;
   overflow: hidden;
   width: 100%;
   max-width: 520px;
