@@ -62,43 +62,7 @@
             (n.className += t + "touch");
       })(window, document);
     </script>
-  <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-firestore.js"></script>
-<script type="module">
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js';
-import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js';
-import { getFirestore, collection, query, where, onSnapshot } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-firestore.js';
 
-const firebaseConfig = {
-            apiKey: "AIzaSyCUqPX2Q0simFrfD5MCTGpNTUeRdRx-4-0",
-            authDomain: "peer-e62eb.firebaseapp.com",
-            projectId: "peer-e62eb",
-            storageBucket: "peer-e62eb.appspot.com",
-            messagingSenderId: "1081989149365",
-            appId: "1:1081989149365:web:4089afb275763f99e4c4fc",
-            measurementId: "G-6ZSR1M05M6"
-        };
-
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
-
-onAuthStateChanged(auth, (user) => {
-  const userNameDiv = document.getElementById("user-name");
-  const vehicleCount = document.getElementById("vehicle-count");
-  if (user) {
-    userNameDiv.textContent = `${user.displayName}`;
-    onSnapshot(query(collection(db, "vehicles"), where("userId", "==", user.uid)), (snapshot) => {
-      vehicleCount.textContent = snapshot.size;
-    });
-  } else {
-    userNameDiv.textContent = "User: N/A";
-    vehicleCount.textContent = 0;
-  }
-});
-
-  </script>
   </head>
   <body>
     <div
@@ -367,7 +331,7 @@ onAuthStateChanged(auth, (user) => {
                       <div class="hidden-on-mbl">
                         <div class="mg-bottom-4px">
                           <div class="text-200 medium color-neutral-800">
-                            <div id="user-name"></div>  </div>
+                            Anita Kasava     </div>
                         </div>
                         <div class="text-100 medium color-neutral-600">
                           Account settings
@@ -510,6 +474,11 @@ onAuthStateChanged(auth, (user) => {
                 </div>
               </div>
 
+              <label for="distance">Distance (km):</label>
+              <input type="number" id="distance" name="distance" min="0" step="any">
+              <label for="cars">Number of cars:</label>
+              <input type="number" id="cars" name="cars" min="1" value="1">
+              <button id="fetchDataButton">Fetch Data</button>
 
               <div class="reports-top-details-container">
 
@@ -558,12 +527,7 @@ onAuthStateChanged(auth, (user) => {
                   <div>
                     <div class="text-200 medium">Vehicles</div><br>
                     <div class="flex align-end">
-                      <div id="total-vehicles"  style="font-size: 16px;font-weight: 200;" class="display-4 mg-right-6px">
-              
-                            <span id="vehicle-count">0</span>
-                    
-                    
-                    </div>
+                      <div  id="dataDisplay1" style="font-size: 16px;font-weight: 200;" class="display-4 mg-right-6px"></div>
                       <div class="text-100 medium mg-bottom-4px">
                         <div class="flex">
 
@@ -1051,7 +1015,7 @@ onAuthStateChanged(auth, (user) => {
 
         function displayData(data, distance, cars) {
           const dataDisplay = document.getElementById("dataDisplay");
- 
+          const dataDisplay1 = document.getElementById("dataDisplay1");
           const dataDisplay2 = document.getElementById("dataDisplay2");
           const dataDisplay3 = document.getElementById("dataDisplay3");
           
@@ -1066,7 +1030,10 @@ onAuthStateChanged(auth, (user) => {
             <p>${totalCo2e} ${co2e_unit}</p>
           `;
 
+          dataDisplay1.innerHTML = `
 
+            <p>${cars}</p>
+          `;
           dataDisplay2.innerHTML = `
 
             <p> ${co2ePerCar} ${co2e_unit}</p>
@@ -1078,6 +1045,17 @@ onAuthStateChanged(auth, (user) => {
         }
 
       // Fetch and display the data when the page loads
+      document.getElementById("fetchDataButton").addEventListener("click", () => {
+          const distanceInput = document.getElementById("distance");
+          const distance = parseFloat(distanceInput.value) || 0;
+          
+          const carsInput = document.getElementById("cars");
+          const cars = parseInt(carsInput.value) || 1;
+        
+          fetchData(distance, cars).catch((error) => {
+            console.error("Failed to fetch data:", error);
+          });
+        });
 
     </script>
     <script
